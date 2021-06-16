@@ -1,0 +1,15 @@
+/* BASIC css start */
+#myPoint .page-body { padding: 0px 0px; }
+#myPoint .att-box-wrap { margin-top: 15px; padding-top: 15px; }
+#myPoint .att-box { width: 502px; }
+#myPoint .att-box .bull-t { font-size:0; line-height: 0; }
+#myPoint .att-box .table-att { padding-left: 0px; padding-right: 0px;}
+#myPoint .att-box .table-att th,
+#myPoint .att-box .table-att td { border-bottom: 1px dashed #ccc; }
+#myPoint .att-box .table-att th { font-weight: normal; padding: 5px 0 4px; background: url(/images/d3/modern_simple/common/bull_h5_arow_red.gif) no-repeat 0 50%; }
+#myPoint .att-box .table-att td { padding: 3px 0; }
+#myPoint .att-box .table-att td .tb-right { padding: 3px 5px; background-color: #f5f5f5; font-weight: bold; color: #356f9d;  }
+#myPoint .table-d2-list { margin-top: 5px; }
+
+/* BASIC css end */
+

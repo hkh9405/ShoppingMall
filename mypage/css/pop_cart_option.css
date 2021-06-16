@@ -1,0 +1,131 @@
+/* BASIC css start */
+/* BASIC css start */
+#layer-opt-ctrl { width: 455px; font-size: 12px; line-height: 1.5; color: #666; font-family: Dotum; background: #fff; }
+#layer-opt-ctrl .lcont { padding:20px; }
+/* 타이틀 */
+#layer-opt-ctrl h2 { height: 59px; line-height: 61px; padding-left:20px; border-bottom:1px solid #d5d5d3; background:#fff; color: #000; font-size: 20px; font-weight:bold; text-align: left; }
+/* 상품 썸네일 */
+#layer-opt-ctrl .prd-w { zoom: 1; overflow: hidden; width:100%; }
+#layer-opt-ctrl .prd-w:after { clear: both; content: ""; display: block; }
+#layer-opt-ctrl .prd-w .thumb { width: 15%; float: left; }
+#layer-opt-ctrl .prd-w .thumb img { width: 50px; height: 50px; border: 1px solid #CCC; }
+#layer-opt-ctrl .prd-w .pinfo { width:85%; padding-top: 10px; float: left; }
+#layer-opt-ctrl .prd-w .pinfo .prd_name { width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-weight: bold; color:#000; }
+#layer-opt-ctrl .prd-w .pinfo .price { color: #ED0000; font-weight: bold; }
+/* 옵션 박스 */
+#layer-opt-ctrl .scr-box { overflow-x:hidden; overflow-y: scroll; height: 140px; margin-top: 10px; padding: 10px 0px 10px 25px; border: 1px solid #d3d3d3; background: #fcfcfc; }
+#layer-opt-ctrl .scr-box th,
+#layer-opt-ctrl .scr-box td { padding: 3px 0; }
+#layer-opt-ctrl .scr-box th { text-align: left; font-weight: normal; }
+#layer-opt-ctrl .scr-box td select { width:265px; font-size: 11px; }
+#layer-opt-ctrl .scr-box td input[type=text] { /*width:90%;*/ height:16px; line-height:18px; font-size: 11px; }
+#layer-opt-ctrl .scr-box td input[type=text].basic_option { width:90%; }
+
+#layer-opt-ctrl .scr-box td .quantity input { width: 40px; height: 18px; text-align: right; }
+#layer-opt-ctrl .scr-box td .quantity .qty-ctrl { display: inline-block; width: 11px; font-size: 0; line-height: 0; vertical-align: middle; }
+#layer-opt-ctrl .scr-box td .quantity a { overflow: hidden; display: inline-block; width: 11px; height: 9px; }
+#layer-opt-ctrl .scr-box td .quantity a img { vertical-align: top; }
+#layer-opt-ctrl .scr-box td .quantity a.btn-dw { margin-top: 3px; }
+
+#layer-opt-ctrl .scr-box td .opt-count select { float: left; width: 200px; }
+#layer-opt-ctrl .scr-box td .opt-btns { float: left; width: 56px; margin-left: 5px; }
+#layer-opt-ctrl .scr-box td .opt-btns { position: relative; width: 56px; height: 19px }
+#layer-opt-ctrl .scr-box td .opt-btns input { position: absolute; top: 0; left: 0; width: 40px; height: 17px; border: 1px solid #ddd; text-align: right; }
+#layer-opt-ctrl .scr-box td .opt-btns .btn-up { position: absolute; top: 0; right: 0; }
+#layer-opt-ctrl .scr-box td .opt-btns .btn-dw { position: absolute; bottom: 0; right: 0; }
+
+/* 옵션 결과 리스트 */
+#layer-opt-ctrl .opt-wrap { margin-top: 10px; border: 1px solid #ddd; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li { *zoom: 1; position: relative; min-height:13px; _height: 13px; *margin-bottom: -4px; padding: 8px 5px; border-bottom: 1px solid #ddd; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_qty-ctrl,
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_price,
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_btn-del { position: absolute; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_p-name,
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_qty-ctrl,
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_price,
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_btn-del { display: block; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_price { right: 20px; top: 11px; color: #333; line-height:14px; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_btn-del { right: 5px; top: 10px; }
+/* 타입 */
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_p-name { overflow:hidden; width:60%; text-overflow:ellipsis; white-space:nowrap; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_qty-ctrl { width: 50px; top: 8px; right: 90px; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_qty-ctrl input { float: left; width: 32px; _width:35px; height:16px; line-height:16px; _height: 20px; _line-height: 18px; text-align: right; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_qty-ctrl a { position: absolute; right: 0px; font-size: 0; line-height: 0; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_qty-ctrl a img { vertical-align: top; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_qty-ctrl a.MK_btn-up { top: 0; }
+#layer-opt-ctrl .opt-wrap .MK_inner-opt-cm li .MK_qty-ctrl a.MK_btn-dw { top: 10px; }
+/* 총합계 */
+#layer-opt-ctrl .opt-total { padding: 10px 5px; font-size: 12px; color: #333; text-align: right; }
+#layer-opt-ctrl .opt-total .opt-p-tit { }
+#layer-opt-ctrl .opt-total .opt-p-total { color: #ff0000; font-weight: bold; }
+#layer-opt-ctrl .opt-total .opt-p-won { }
+/* 변경하기, 취소버튼 */
+#layer-opt-ctrl .btn { margin-top: 15px; text-align: center; }
+#layer-opt-ctrl .btn span button { display:inline-block; width:90px; height:30px; line-height:27px; margin-left:5px; border:1px solid #1f2632; color:#fff; font-size:12px; font-weight:bold; background:#566277; text-align:center; }
+#layer-opt-ctrl .btn span button.btn-close { border:1px solid #989fab; background:#afb5bf; }
+/* BASIC css end */
+
+/* 하이브리드옵션 */
+#layer-opt-ctrl .lcont .hy_opts { margin-top: 10px; padding:5px 10px; border:1px solid #ddd; font-size:11px; background:#eee; }
+#layer-opt-ctrl .lcont .hy_opts .option-box { width:100%; border-bottom:1px solid #ddd; }
+#layer-opt-ctrl .lcont .hy_opts .option-box.last { border-bottom:none; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .tit { padding:10px 0 5px; color:#666; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list:after { clear: both; content: ""; display: block; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list { width:100%; padding-left:5px; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li { float:left; width:18%; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li.last { width:54px; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl { width:54px; padding-bottom:10px; text-align:center; color:#333; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdchk { text-align:left; padding-bottom:5px; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdchk input { width:12px; height:12px; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdimg { position:relative; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdimg img { width:54px; height:54px; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdimg.noimg { }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdimg .soldout { position:absolute; top:0; left:0; display:inline-block; width:54px; height:54px; line-height:56px; color:#fff; text-align:center; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdimg .soldout-bg { position:absolute; top:50%; left:0; display:inline-block; width:54px; height:20px; margin-top:-10px; background:#000; filter:alpha(opacity:40); opacity:0.4; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdimg .sel-img { position:absolute; top:0; left:0; display:inline-block; width:54px; height:54px; background:#000; filter:alpha(opacity:40); opacity:0.4; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdname { padding-top:5px; line-height:14px; word-wrap:break-word;}
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdnote { padding-bottom:3px; line-height:14px; word-wrap:break-word;}
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdprice { padding-bottom:5px; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdqty { }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdqty input { display:inline-block; width:20px; height:15px; line-height:17px; padding:0 5px; border:1px solid #707070; font-size:11px; text-align:right; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdqty .btn-up-down { display:inline-block; width:11px; height:14px; line-height:0; font-size:0; vertical-align:top; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdqty .btn-up-down a { display:inline-block; width:11px; height:9px; line-height:0; font-size:0; vertical-align:top; }
+#layer-opt-ctrl .lcont .hy_opts .option-box .list li dl dd.prdqty .btn-up-down .btn-up { margin-bottom:1px; }
+
+
+/* 총합계 */
+#MK_innerOptPrice { display:none; padding: 12px 5px 10px; font-size: 12px; color: #333; text-align: right; }
+#MK_innerOptAdd {  display:none; padding: 0 5px; font-size: 12px; color: #333; text-align: right; }
+#MK_innerOptTotal { padding: 10px 5px; font-size: 12px; color: #333; text-align: right; }
+#MK_innerOptTotal .MK_txt-total { }
+#MK_innerOptTotal .MK_txt-won { }
+#MK_innerOptTotal .MK_total { color: #ff0000; font-weight: bold; }
+
+
+/* 원클릭옵션 */
+.MK-oneclick-list { overflow:hidden; zoom:1; }
+.MK-oneclick-list:after { content: ""; display: block; clear: both; }
+.MK-oneclick-list li { float:left; margin: 0 5px 5px 0; }                                                                                
+.MK-oneclick-list li a { border:1px solid #231f20; display: inline-block; border-radius: 1px; box-sizing:border-box; } 
+.MK-oneclick-list li.MK-oneclick-sel a { border:2px solid #000000; }
+.MK-oneclick-list li.MK-oneclick-dis a { filter:alpha(opacity=50); -moz-opacity:.5; opacity:.5; }
+.MK-oneclick-list li.MK-oneclick-color.MK-oneclick-sel a {  padding:1px; filter:alpha(opacity=100); -moz-opacity:1; opacity:1; }
+.MK-oneclick-list li a span { display: block; text-align: center; vertical-align: middle; line-height: 19px; }                         
+.MK-oneclick-list li a img { width: 100%; height:100%;}
+.MK-oneclick-list li.MK-oneclick-image a {height:50px;}
+.MK-oneclick-list li.MK-oneclick-image a img {width: auto; height: 48px;;}
+.MK-oneclick-list li.MK-oneclick-image.MK-oneclick-sel a img {height:46px; width: auto;}
+.MK-oneclick-list li.MK-oneclick-color { width:50px; height: 50px; } 
+.MK-oneclick-list li.MK-oneclick-color a { padding: 2px; }
+.MK-oneclick-list li.MK-oneclick-color span { width: 44px; height: 44px; }
+.MK-oneclick-list li.MK-oneclick-color .mk-oo-sel span { width: 27px; height: 27px;}
+.MK-oneclick-list li.MK-oneclick-text  .MK-oneclick-list li.MK-oneclick-text {min-width:35px; max-width:100%; height: 50px; }
+.MK-oneclick-list li.MK-oneclick-text a { padding: 2px; }
+.MK-oneclick-list li.MK-oneclick-text.MK-oneclick-sel a {padding:1px;}
+.MK-oneclick-list li.MK-oneclick-text span { min-width: 29px; line-height: 44px; max-width: 320px; overflow: hidden; height: 44px; }                                                                        
+.MK-oneclick-list li.MK-oneclick-text .MS-oneclick-sel span { min-width: 30px; line-height: 27px; }
+.MK-oneclick-value { padding: 5px 0; display:block; }
+.MK-oneclick-only-text li.MK-oneclick-text { height: auto; }
+.MK-oneclick-only-text li.MK-oneclick-text span { height: auto; line-height: 19px; max-width: 320px; overflow: hidden; height: 19px; }
+/* BASIC css end */
+

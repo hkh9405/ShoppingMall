@@ -1,0 +1,15 @@
+/* BASIC css start */
+#myReserv .page-body { padding: 0px 0px; }
+#myReserv .att-box-wrap { margin-top: 15px; padding-top: 15px; }
+#myReserv .att-box { width:1160px; border:1px solid #e4e4e4; padding:20px 0px 20px 40px; }
+#myReserv .att-box .bull-t { font-size:0; line-height: 0; }
+#myReserv .att-box .table-att { padding-left: 15px; padding-right: 10px; }
+
+#myReserv .att-box .table-att th { font-weight: normal; padding: 5px 0 4px; }
+#myReserv .att-box .table-att td { padding: 3px 0; }
+#myReserv .att-box .table-att td .tb-right { padding: 3px 40px; font-weight: bold; color: #000;  }
+#myReserv .table-d2-list { margin-top: 5px; }
+#myReserv .foot-dsc{ margin-top: 20px; }
+#myReserv .foot-dsc li { padding-bottom: 5px; padding-left: 10px; background: url(/study/project3/mypage/image/bull_h3_sqr_gray.gif) no-repeat 0 9px; color:#888; }
+/* BASIC css end */
+

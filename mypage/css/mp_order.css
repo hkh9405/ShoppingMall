@@ -1,0 +1,9 @@
+/* BASIC css start */
+#myOrder .page-body { padding: 0px 0px; }
+#myOrder .table-d2-list { margin-top: 30px; }
+#myOrder .foot-dsc{ margin-top: 20px; }
+#myOrder .foot-dsc li { padding-bottom: 5px; padding-left: 10px; background: url(/study/project3/mypage/image/bull_h3_sqr_gray.gif) no-repeat 0 9px; color:#888; }
+
+#payiframe { z-index:9999999999999999 !important; }
+/* BASIC css end */
+
