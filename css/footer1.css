@@ -1,0 +1,41 @@
+/* BASIC css start */
+/* ÇÏ´Ü */
+
+#footer_wrap { clear:both; width:100%; min-width:1200px; min-height:240px; height:auto; margin-top:30px; background:#000; position:relative;  z-index:1; }
+#footer { width:1200px; height:128; margin:0 auto; padding:50px 0 56px; color:#808080; font-size:11px;  font-family:  'Arita-dotum','Open Sans', sans-serif;}
+#footer a {font-family:  'Arita-dotum','Open Sans', sans-serif; font-size:11px;}
+#footer p { width:100%; text-align:left;font-family:  'Arita-dotum','Open Sans', sans-serif; font-size:11px; color:#808080; line-height:18px; }
+
+#footer .foot_left { float:left; width:523; text-align:left; line-height:20px; }
+#footer .foot_left .insta_widget { clear:both; }
+#footer .foot_left p { padding-bottom:15px;}
+#footer .foot_left p.last {padding-bottom:0px;}
+
+/* °í°´¼¾ÅÍ */
+#footer .foot_cs { float:left; width:250px; margin-left:130px; }
+#footer .foot_cs h3 { clear:both; width:100%; height:12px; text-align:left; margin:40px 0 18px; }
+#footer .foot_cs h3.first { margin-top:0; }
+
+#footer .foot_cs p span.call { font-size:20px; color:#00a2ff; font-weight:bold; line-height:38px; }
+#footer .foot_cs p a { color:#fff; opacity:0.7; text-decoration:none; 
+transition: all 0.5s ease;
+-moz-transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+
+}
+#footer .foot_cs p a:hover { opacity:1;}
+#footer .foot_cs .guide li { clear:both; height :30px; line-height:30px; }
+#footer .foot_cs .guide li a { display:block; width:180px; color:#808080; text-decoration:none; height:30px; line-height:30px;font-family:  'Arita-dotum','Open Sans', sans-serif;text-decoration:none; 
+transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+-o-transition: all 0.5s ease; }
+#footer .foot_cs .guide li a:hover { color:#fff;}
+
+/* °¡ÀÌµå */
+#footer .foot_right { float:right; text-align:right; }
+#footer .foot_right img { padding-top:52px; opacity:0.5;}
+
+/* BASIC css end */
+

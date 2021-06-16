@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* BASIC css start */
+.tb-l { text-align: left; }
+.tb-c { text-align: center; }
+.pl-30 { padding-left: 15px; }
+.pl-6 { padding-left: 6px; }
+
+#join h1.tit-join { margin-bottom: 30px; padding-bottom: 6px; border-bottom: 4px solid #3a4452; font-size: 16px; font-weight: bold; }
+#join h3.cont-tit { margin-top: 30px; margin-bottom: 5px; padding-left: 15px; color: #575757; font-weight: bold; background: url("/images/d3/modern_simple/bull_tit_h11.gif") no-repeat 0 0; }
+
+#join .red { color: #ff3333 }
+#join .font-n { font-weight: normal; }
+#join .w137 { width : 137px; }
+#join .w415 { width : 415px; }
+
+#join .ipin-confirm { height: 110px; padding: 15px 0; border: 3px solid #d4d4d4; text-align: center; background-color: #fdfdfd; }
+#join .ipin-confirm .chk-wrap { line-height: 20px; vertical-align: middle; }
+#join .ipin-confirm .chk-wrap i { display: inline-block; vertical-align: middle; }
+#join .ipin-confirm .chk-wrap label { vertical-align: middle; line-height: 1.25; }
+#join .ipin-confirm .chk-wrap .first { margin-right: 20px; }
+#join .ipin-confirm p { margin: 20px 0; line-height: 18px; font-size: 14px;  }
+
+#join a.ipin-svc { font-size: 14px; font-weight: bold; color: #ff3333; text-decoration: underline; margin :0 10px;}
+
+#join .btn-area { text-align: center; margin:10px 0;}
+#join .btn-area a { font-size: 0; }
+#join .ftr-btn { margin-top: 55px; }
+#join .ipin-btn { margin-top: 35px; }
+
+/* 회원 정보입력 */
+#join .join-info { margin-top: 40px; margin-bottom: 5px; padding-left: 15px; background: url("/images/d3/modern_simple/bull_terms_h14.gif") no-repeat 0 0; }
+#join .tb-tit { padding: 15px 0 10px 25px; border-width: 1px 1px 2px 1px; border-color: #dedfde #dedfde #3a4452 #dedfde; border-style: solid; color: #575757; font-weight: bold; background: url("/images/d3/modern_simple/bull_tit_h11.gif") no-repeat 10px 14px #f7f7f7; }
+
+/* 담당자 정보 입력 */
+#personInfo { margin-bottom: 35px; }
+#personInfo .person-tb { border: 1px solid #dedede; }
+#personInfo .person-tb th, #personInfo .person-tb td { border: 1px solid #dedede; }
+#personInfo .person-tb th { height: 30px; letter-spacing: -1px; vertical-align: middle; border-right: 1px solid #dedede; }
+#personInfo .idpw-info { font-size: 11px; letter-spacing: -1px; }
+
+/* 담당자 정보 입력 */
+#addInfo .addinfo-tb { border: 1px solid #dedede; }
+#addInfo .addinfo-tb th, #personInfo .person-tb td { border: 1px solid #dedede; }
+#addInfo .addinfo-tb th { height: 30px; letter-spacing: -1px; vertical-align: middle; border-right: 1px solid #dedede; }
+#addInfo .addinfo-tb td { padding: 7px 0 6px; }
+
+
+/* BASIC css end */
+

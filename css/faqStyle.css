@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/* BASIC css start */
+#MS_WritenBySEB P { margin-top:7px; margin-bottom:7px;}
+#faqWrap BLOCKQUOTE { margin-left:15px; }
+#faqWrap BLOCKQUOTE.q1,
+#faqWrap BLOCKQUOTE.q2,
+#faqWrap BLOCKQUOTE.q3,
+#faqWrap BLOCKQUOTE.q4,
+#faqWrap BLOCKQUOTE.q5,
+#faqWrap BLOCKQUOTE.q6,
+#faqWrap BLOCKQUOTE.q7{ padding:10px; margin-left:15px; margin-right:15px;}
+#faqWrap BLOCKQUOTE.q1{ padding:0 10px; border-left:2px solid #ccc;}
+#faqWrap BLOCKQUOTE.q2{ padding:0 10px; background:url(/images/d3/modern_simple/common/bg_qmark.gif) no-repeat;}
+#faqWrap BLOCKQUOTE.q3{ border:1px solid #d9d9d9;}
+#faqWrap BLOCKQUOTE.q4{ border:1px solid #d9d9d9; background:#fbfbfb;}
+#faqWrap BLOCKQUOTE.q5{ border:2px solid #707070;}
+#faqWrap BLOCKQUOTE.q6{ border:1px dashed #707070;}
+#faqWrap BLOCKQUOTE.q7{ border:1px dashed #707070; background:#fbfbfb;}
+/* FAQ검색 폼 */
+#faqWrap .faq-search { text-align: center; border: 1px solid #d8d8d8; background-color: #FFFFFF; }
+#faqWrap .search-wrap { position: relative; height: 118px; width: 455px; margin-left: auto; margin-right: auto; }
+#faqWrap .search-wrap h4,
+#faqWrap .search-wrap .keyword,
+#faqWrap .search-wrap .select-category,
+#faqWrap .search-wrap .btn-submit,
+#faqWrap .search-wrap .best-keyword { position: absolute; }
+#faqWrap .faq-search h4 { left: 0px; top: 23px; font-size: 0; line-height: 0; }
+#faqWrap .search-wrap .keyword { left: 240px; top: 23px; width: 137px; padding-left: 3px; border: 3px solid #555; }
+#faqWrap .search-wrap .keyword input { float: left; height: 100%; border: 0; height: 15px; font-size: 11px; line-height: 15px; }
+#faqWrap .search-wrap .select-category { top: 23px; width:110px; left: 125px; height: 23px; }
+#faqWrap .search-wrap .btn-submit { left: 390px; top: 23px; }
+#faqWrap .search-wrap .best-keyword { left: 126px; top: 50px; width: 450px; }
+#faqWrap .search-wrap .best-keyword dt,
+#faqWrap .search-wrap .best-keyword dd,
+#faqWrap .search-wrap .best-keyword dd ul,
+#faqWrap .search-wrap .best-keyword dd ul li { display: inline; float: left; width: auto; height: 17px; line-height: 17px; }
+#faqWrap .search-wrap .best-keyword dt strong { font-weight: bold; color: #5789c2; }
+#faqWrap .search-wrap .best-keyword dd ul li { margin-left: 7px; }
+#faqWrap .search-wrap .best-keyword dd ul li a { white-space: nowrap; color: #999; }
+/* faq 메뉴 */
+#faq-category { margin-top: 10px; margin-bottom: 10px; }
+#faqWrap .faq-menu { *zoom: 1; margin-left: 5px; margin-top: -10px; margin-bottom: -10px; overflow: hidden; }
+#faqWrap .faq-menu li,
+#faqWrap .faq-menu li a { float: left; width: auto; heihgt: 35px;line-height: 35px; }
+#faqWrap .faq-menu li { padding-left: 8px; background: url(/images/d3/modern_simple/common/bull_faq_link.gif) no-repeat 0 45%; }
+#faqWrap .faq-menu li a { color: #999; font-weight: bold; padding-right: 20px; white-space: nowrap;	}
+#faqWrap .faq-menu li.now a { color: #555; }
+/* faq 리스트 */
+#faqWrap #faqTable { border-top: 2px solid #797979; border-bottom: 1px solid #dadada; }
+#faqWrap #faqTable th,
+#faqWrap #faqTable tr td { padding: 7px 0 6px; border-bottom: 1px solid #dadada; background-color: #FFFFFF; }
+#faqWrap #faqTable tr.slide-hide td { border-bottom: 0px; }
+#faqWrap #faqTable th { background-color: #f3f3f3; }
+#faqWrap #faqTable td,
+#faqWrap #faqTable td a { color: #555; }
+#faqWrap #faqTable td { cursor: pointer; }
+#faqWrap #faqTable tr.slide-hide,
+#faqWrap #faqTable tr.slide-hide dl { display: none; }
+#faqWrap #faqTable tr.slide-show { display: table-rows; *display: block; }
+#faqWrap #faqTable tr.slide-show dl { display: block; }
+#faqWrap #faqTable tr.slide-hide td,
+#faqWrap #faqTable tr.slide-show td { cursor: default; background-color: #fffae5; }
+#faqWrap #faqTable .tb-slide { padding: 0 20px; }
+#faqWrap #faqTable .tb-slide a { text-decoration: underline; color : #800080; }
+#faqWrap #faqTable .tb-slide ol,
+#faqWrap #faqTable .tb-slide ul { margin-left:35px; }
+#faqWrap #faqTable .tb-slide dl { position: relative; width: 100%; }
+#faqWrap #faqTable td .tb-slide dl dt { position: absolute; left: 1px; top: 10px; }
+#faqWrap #faqTable td .tb-slide dl dd { margin-left: 35px; padding: 10px 0; font-weight: bold; }
+#faqWrap #faqTable td .tb-slide dl.adv { margin-top: 5px; border-top: 1px dashed #d8d8d8; }
+#faqWrap .pager { text-align: center; margin-top: 20px; }
+#faqWrap .pager ol li { display: inline; padding: 0px 5px; }
+#faqWrap .pager ol li img { margin-top: 2px; }
+#faqWrap .pager ol li.first,
+#faqWrap .pager ol li.next { padding-right: 0; }
+#faqWrap .pager ol li.last,
+#faqWrap .pager ol li.prev { padding-left: 0; }
+/* BASIC css end */
+

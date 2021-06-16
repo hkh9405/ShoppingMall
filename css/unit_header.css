@@ -1,0 +1,8 @@
+/* BASIC css start */
+#dggHide { z-index:99999998 !important; position:fixed !important; right:30px !important; top:90px !important; }
+#dggTbar { z-index:99999998 !important; position:fixed !important; left:0 !important; top:90px !important; }
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+/* BASIC css end */
+

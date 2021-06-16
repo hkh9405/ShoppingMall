@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* BASIC css start */
+#mySecede .page-body { padding-top:0px; margin-left: auto; margin-right: auto; }
+#mySecede .dbox-wrap { width:1198px; border:1px solid #dedede; margin-bottom:10px; text-align:center; }
+#mySecede .dbox-wrap .d-box { /*margin-right: 20px; padding: 30px 140px 10px 20px;*/ }
+#mySecede .dbox-wrap li { padding:20px 0; }
+#mySecede .scede-frm table textarea { width: 98%; height: 175px; border:1px solid #d9d9d9; }
+#mySecede .btn-foot { margin-top: 25px; font-size: 0; line-height: 0; text-align: center; }
+#mySecede .btn-foot a { margin-left: 5px; }
+
+/* BASIC css end */

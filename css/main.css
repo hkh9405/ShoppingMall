@@ -1,0 +1,100 @@
+/* BASIC css start */
+/* 메인 */
+
+#main { clear:both; width:100%; margin:0px auto; margin-top:0px; position:relative; background:#fff; }
+#main_1200 { clear:both; width:1200px; margin:0 auto; padding-top:4px;}
+
+/* 상단 간격 (메인페이지) */
+#main_content { position:relative;  /*padding-top:540px;*/ padding-top:0px; bgcolor:#FFFFFF; }
+
+
+
+/* 메인상단 100% 전환 이미지 */
+#mains { clear:both; width:1200px; margin:0 auto; overflow:hidden; position:relative; left:0px; top:0px;  }
+#mains .wideimg { float:left; position:relative; clear:both; width:1200px; height:600px; margin:0 auto; text-align:center; background-color:#fafafa; overflow:hidden; z-index:0; } 
+#mains .wideimg .wideleft { float:left; position:absolute; cursor:pointer; clear:both; width:43px; height:39px; top:270px; left:40px; z-index:11; text-align:center; background:url('http://zooyork77.img7.kr/onedesign_main/images/imgbtn_left.png') center 0 no-repeat; } 
+#mains .wideimg .wideright { float:right; position:absolute; cursor:pointer; clear:both; width:43px; height:39px; top:270px; right:40px; z-index:11; text-align:center; background:url('http://zooyork77.img7.kr/onedesign_main/images/imgbtn_right.png') center 0 no-repeat; } 
+#mains .wideimg .part { float:left; position:absolute; width:auto; /*height:400px;*/  height:600px; z-index:-3; opacity:0; left: 50%!important;    transform: translateX(-50%); }
+#mains .wideimg .part img { width:100% height:auto; }
+#mains .btn { float:left; position:relative; width:100%; height:13px; margin-top:-50px; z-index:11; cursor:pointer; }
+#mains .btn ul { position:relative; height:13px; font-size:0; line-height:0; text-align:center; }
+#mains .btn ul li { position:relative; width:13px; height:13px; display:inline; margin:0 5px; }
+
+
+
+/* 배너박스 */ 
+.main_bn { width:1200px; margin:5px 0; overflow:hidden;}
+.main_bn li { float:left; text-align:center }
+.main_bn li.cen { margin:0 9px }
+.main_bn li img { width:394px; height:248px; display:block; margin-bottom:5px }
+.main_bn li span { color:#000; font-size:13px; font-weight:bold; }
+
+#banner_box { clear:both; width:100%; margin:0 auto; overflow:hidden; padding-top:4px;}
+#banner_box .maintop_img { width:100%; height:230px; }
+#banner_box .top_img { width:100%; height:230px; margin-top:4px; }
+#banner_box .top_img .topleft { float:left; width:354px; height:230px; }
+#banner_box .top_img .topright { float:right; width:842px; height:230px; }
+#banner_box .vertical_banner { clear:both; margin-top:4px; }
+#banner_box .vertical_banner .leftbanner { float:left; width:354px; height:600px; margin-right:4px; }
+
+/* 롤링 배너 */
+#banner_box .vertical_banner #rolling_prd  { float:right; width:478px; height:594px; border:0px solid #a2a2a2; margin-right:0; background:#fff; position:relative; padding-right:6px; }
+#banner_box .vertical_banner #rolling_prd .title_box { position:absolute; left:0; top:33px; z-index:999; }
+#banner_box .vertical_banner #rolling_prd .title { width:478px; height:25px; line-height:25px; text-align:center; font-size:27px; font-weight:bold; font-family: 'Noto Sans KR', sans-serif; color:#000; letter-spacing:0.05em;}
+#banner_box .vertical_banner #rolling_prd .main_visual { position:relative; width:478px; height:594px; margin:0 auto; overflow:hidden; }
+#banner_box .vertical_banner #rolling_prd .main_visual .bxslider { display:block; width:478px; height:594px; margin:0 auto; z-index:10; }
+#banner_box .vertical_banner #rolling_prd .main_visual .bxslider:after { content: ""; clear:both; display:block; }
+
+#banner_box .vertical_banner #rolling_prd .main_visual .bxslider li { width:478px; height:594px; margin:0 auto; text-align:center; }
+#banner_box .vertical_banner #rolling_prd .main_visual .bxslider li .img_slider { width:100%; height:100%; margin:0 auto; text-align:center; }
+#banner_box .vertical_banner #rolling_prd .main_visual .bxslider li .img_slider img { width:450px; height:450px; margin:0 auto; text-align:center; padding-top:70px; }
+
+#banner_box .vertical_banner #rolling_prd .main_visual .bx-has-controls-direction { position:absolute; bottom:24px; width:100%; text-align:center; z-index:100; }
+#banner_box .vertical_banner #rolling_prd .main_visual .bx-has-controls-direction .bx-pager-item { /*display:inline-block;*/ display:inline-block; *display:inline; *zoom:1; width:13px; height:13px; margin:0 5px; }
+#banner_box .vertical_banner #rolling_prd .main_visual .bx-has-controls-direction .bx-pager-item a { /*display:block;*/ display:inline-block; width:13px; height:13px; text-indent:-5000em; font-size:0; background:url(http://zooyork77.img7.kr/onedesign_main/images/imgbtn_off.png) no-repeat 0 0; }
+#banner_box .vertical_banner #rolling_prd .main_visual .bx-has-controls-direction .bx-pager-item a.active { background:url(http://zooyork77.img7.kr/onedesign_main/images/imgbtn_on2.png) no-repeat 0 0; }
+
+#banner_box .vertical_banner #rolling_prd .main_visual .bx-controls-direction { }
+#banner_box .vertical_banner #rolling_prd .main_visual .bx-controls-direction .bx-prev { position:absolute; bottom:270px; left:21px; display:block; background:url(http://zooyork77.img7.kr/onedesign_main/images/rollbtn_left.png) no-repeat; width:24px; height:23px; text-indent:-5000em; }
+#banner_box .vertical_banner #rolling_prd .main_visual .bx-controls-direction .bx-next { position:absolute; bottom:270px; right:21px; display:block; background:url(http://zooyork77.img7.kr/onedesign_main/images/rollbtn_right.png) no-repeat; width:24px; height:23px; text-indent:-5000em; }
+/* // */
+
+/* 갤러리 게시판 노출 */
+#main_gallery { clear:both; width:100%; margin-top:4px; overflow:hidden; }
+#main_gallery .left_gall { float:left; }
+#main_gallery .right_gall { float:right; }
+#main_gallery .left_gall li,
+#main_gallery .right_gall li { float:left; width:297px; margin-right:4px; }
+#main_gallery .left_gall li:last-child {display:inline; margin-right:0px; }
+#main_gallery .left_gall li:second,
+#main_gallery .right_gall li:second { margin-right:4px; }
+
+#main_gallery .gall_thumb { width:297px; height:297px; margin:0 auto; text-align:left;  overflow:hidden; border:0px solid #e7e7e7; border-bottom:0px!important;}
+#main_gallery .gall_thumb img { width:297px; height:297px;  }
+
+#main_gallery .gall_info_wrap {width:297px; height:50px;}
+#main_gallery .gall_info { width:255px; height:50; clear:both; padding: 0px 20px 10px 19px;  text-align:center; border:0px solid #e7e7e7; }
+#main_gallery .gall_info div { display:block; }
+#main_gallery .gall_info,
+#main_gallery .gall_info a { font-family: 'Open Sans', sans-serif; color:#000; letter-spacing:0.1em;}
+#main_gallery .gall_info .gall_date {  font-size:8px; padding:24px 0 0px; margin:0px 0 0; border-top:0px solid #000;}
+#main_gallery .gall_info .gall_title,
+#main_gallery .gall_info .gall_title a {  overflow:hidden; font-size:8px; line-height:23px; padding : 0 0 5 5; padding-top:10px; }
+#main_gallery .gall_info .gall_more { position:relative; top:112px; width:50px; background:#000; text-align:center;}
+#main_gallery .gall_info .gall_more a { display:block; color:#fff; font-size:9px; }
+
+/* 신상품 타이틀 */
+.title_main { clear:both; width:100%; height:4px; background:#b8b8b8; margin:90px 0 75px; }
+
+
+
+/* 4열 룩북이미지 */
+#fourth_wrapper {left; width:1200px;padding-top:0px;padding-bottom:4px;}
+#fourth_wrapper .fourth_one { float:left; width:297px;height:420px;padding-right:4px;}
+#fourth_wrapper .fourth_one:last-child { float: right; width:297px;height:420px;padding-right:0px;}
+#fourth_wrapper .fourth_one .content {font-size:8px; position:relative; top:-20px; width:297px; margin:0 auto; text-align:center;}
+#fourth_wrapper .fourth_one .content a {display:inline; color:#fff; text-transform:uppercase;}
+#fourth_wrapper .fourth_one .content a:hover {display:inline; text-decoration:underline;}
+
+/* BASIC css end */
+

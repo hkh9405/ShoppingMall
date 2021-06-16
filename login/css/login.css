@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* BASIC css start */
+#loginpage { width:850px; margin:0 auto; }
+#loginpage #logbox { width:850px; margin:0 auto; }
+
+
+/* Å¸ÀÌÆ² */
+#loginpage h3 { clear:both; height:36px; margin-bottom:10px; text-align:left; /*font-family:'verdana', 'arial';*/ font-size:14px; color:#000; line-height:36px; font-weight:normal; }
+
+/* ·Î±×ÀÎ */
+#loginpage .login { float:left; width:350px; }
+#loginpage .login fieldset{ position:relative; width:350px; margin:0 auto; }
+
+#loginpage .login fieldset .id,
+#loginpage .login fieldset .password { overflow:hidden; display:block; width:350px; }
+#loginpage .login fieldset .password { padding-bottom:15px; }
+
+#loginpage .login fieldset .id span,
+#loginpage .login fieldset .password span { float:left; width:350px; height:22px; line-height:22px; /*font-family:'verdana', 'arial';*/ font-size:11px; color:#000; }
+#loginpage .login fieldset .password span { margin-top:13px; }
+
+/* ·Î±×ÀÎ ÀÎÇ² */
+#loginpage .login fieldset input { clear:both; float:left; width:344px; height:24px; line-height:24px; padding:2px; border:0 none; border:1px solid #d9d9d9; color:#555; }
+
+/* º¸¾ÈÁ¢¼Ó, ¾ÆÀÌµð ºñ¹Ð¹øÈ£ Ã£±â */
+#loginpage .login fieldset .subbtn { clear:both; height:20px; padding-left: 0;}
+
+/* º¸¾ÈÁ¢¼Ó */
+#loginpage .login fieldset .security { float:left; color:#777; font-size:11px; height:14px; line-height:14px; padding:5px 10px 1px 0; display:none; }
+#loginpage .login fieldset .security input { width:13px; height:13px; margin:0 3px 0 0; vertical-align:-3px; *vertical-align:2px; }
+#loginpage .login fieldset .security label { margin:0 6px 0 0; }
+
+/* ¾ÆÀÌµð ºñ¹Ð¹øÈ£ Ã£±â */
+#loginpage .login fieldset ul { float:left; overflow:hidden; height:20px; }
+#loginpage .login fieldset li { float:left; }
+#loginpage .login fieldset li a { }
+
+/* ·Î±×ÀÎ ¹öÆ° */
+#loginpage .login fieldset .loginbtn { clear:both; width:350px; height:40px; margin-top:25px; }
+
+
+
+
+/* È¸¿ø°¡ÀÔ */
+#loginpage .join { float:right; width:350px; margin-left:150px; }
+#loginpage .join .join_text { clear:both; height:86px; margin-bottom:10px; }
+#loginpage .join .joinbtn { width:350px; height:57px; border:1px solid #555; padding:0 10px; box-sizing:border-box;  }
+#loginpage .join .joinbtn a { font-weight:normal; font-size:12px; color:#888; letter-spacing:-0.5px }
+#loginpage .join .joinbtn a span { display:block; font-size:13px; color:#000; line-height:18px; padding:10px 0 0 }
+#loginpage .join .joinbtn2 { clear:both; height:40px; text-align:left; margin-top:51px; }
+#loginpage .join .joinbtn2 a img { clear:both; height:35px; }
+#loginpage .join .joinbtn2 .last { padding-top:5px; }
+
+
+
+#loginpage .login fieldset .link { position:relative; margin:0 5px; padding:5px 0 10px 10px; color:#757575; background:url("http://zooyork77.img7.kr/onedesign/images/ico_myshop.gif") no-repeat 0 10px; }
+#loginpage .login fieldset .link a {position:absolute; top:7px; right:0; }
+
+
+/* ºñÈ¸¿ø ·Î±×ÀÎ */
+#nomember { clear:both; width:350px; height:40px; padding-top:10px; }
+
+
+
+/* simpleLogin */
+#simpleLogin { position: relative; margin-top:12px; width:350px; height:57px; border:1px solid #555; box-sizing:border-box}
+#simpleLogin .sns-login { }
+#simpleLogin .sns-login p { font-size:13px; color:#000; line-height:18px; margin:10px }
+#simpleLogin .sns-login p span { display:block; font-weight:normal; font-size:12px; color:#888; letter-spacing:-0.5px }
+#simpleLogin .sns-login div {position:absolute; top:10px; right:5px;}
+#simpleLogin .sns-login a { display: inline-block; margin: 0 4px; }
+
+
+
+/* BASIC css end */
+
